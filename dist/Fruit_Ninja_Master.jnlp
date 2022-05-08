@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Fruit_Ninja_Master.jnlp">
+  <information>
+    <title>Fruit_Ninja_Master</title>
+    <vendor>Nour</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Fruit_Ninja_Master.jar" size="56193" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Gui.Main"  name="Fruit_Ninja_Master" />
+  <update check="always"/>
+</jnlp>
